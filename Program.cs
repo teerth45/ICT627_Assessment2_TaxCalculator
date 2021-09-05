@@ -4,14 +4,11 @@ namespace ICT627_Assessment2_TaxCalculator
 {
     class Program
     {
-        //public static string taxcodesummary;
-        //public static string takehomeresult;
-        //public static string taxpayableval;
+        
         static void Main(string[] args)
         {
             PTCInitial();
-            //Summary.summary();
-            //TryAgain.repeat();
+            
 
 
 
@@ -38,15 +35,11 @@ namespace ICT627_Assessment2_TaxCalculator
                 if (response == "yes")
                 {
                     Console.WriteLine("Your Tax Code is: M");
-                    //taxcodesummary = "Your Tax Code is: M";
+                 
                     Console.WriteLine("--------------------------------");
                     Console.Write("Please enter your Annual Income: ");
                     string checkyearly = Console.ReadLine();
-                    //if (double.TryParse(checkyearly, out yearly))
-                    //{
-                    //    TaxPay.TaxPayableCalc(yearly);
-                    //    TaxCalcQ.TCQ(yearly);
-                    //}
+                  
                 }
                 else if (response == "no")
                 {
@@ -122,16 +115,12 @@ namespace ICT627_Assessment2_TaxCalculator
                             if (response == "yes")
                             {
                                 Console.WriteLine("your tax code is: M SL");
-                                //taxcodesummary = "Your Tax Code is: M SL";
-                                //TaxPay.TaxPayableCalc(yearly);
-                                //TaxCalcQ.TCQ(yearly);
+                                
                             }
                             else if (response == "no")
                             {
                                 Console.WriteLine("your tax code is: M");
-                                //taxcodesummary = "Your Tax Code is: M";
-                                //TaxPay.TaxPayableCalc(yearly);
-                                //TaxCalcQ.TCQ(yearly);
+                                
                             }
                             else
                             {
@@ -147,16 +136,12 @@ namespace ICT627_Assessment2_TaxCalculator
                             if (response == "yes")
                             {
                                 Console.WriteLine("your tax code is: ME SL");
-                                //taxcodesummary = "Your Tax Code is: ME SL";
-                                //TaxPay.TaxPayableCalc(yearly);
-                                //TaxCalcQ.TCQ(yearly);
+                                
                             }
                             else if (response == "no")
                             {
                                 Console.WriteLine("your tax code is: ME");
-                                //taxcodesummary = "Your Tax Code is: ME";
-                                //TaxPay.TaxPayableCalc(yearly);
-                                //TaxCalcQ.TCQ(yearly);
+                            
                             }
                             else
                             {
@@ -173,16 +158,12 @@ namespace ICT627_Assessment2_TaxCalculator
                         if (response == "yes")
                         {
                             Console.WriteLine("your tax code is: M SL");
-                            //taxcodesummary = "Your Tax Code is: M SL";
-                            //TaxPay.TaxPayableCalc(yearly);
-                            //TaxCalcQ.TCQ(yearly);
+                          
                         }
                         else if (response == "no")
                         {
                             Console.WriteLine("your tax code is: M");
-                            //taxcodesummary = "Your Tax Code is: M";
-                            //TaxPay.TaxPayableCalc(yearly);
-                            //TaxCalcQ.TCQ(yearly);
+                      
                         }
                         else
                         {
@@ -208,26 +189,15 @@ namespace ICT627_Assessment2_TaxCalculator
                 if (response == "yes")
                 {
                     Console.WriteLine("your tax code is: M SL");
-                    //taxcodesummary = "Your Tax Code is: M SL";
-                    Console.Write("Please enter your Annual Income: ");
-                    string checkyearly = Console.ReadLine();
-                    if (double.TryParse(checkyearly, out yearly))
-                    {
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
-                    }
+                
+                    
+                    
                 }
                 else if (response == "no")
                 {
                     Console.WriteLine("your tax code is: M");
-                    //taxcodesummary = "Your Tax Code is: M";
-                    Console.Write("Please enter your Annual Income: ");
-                    string checkyearly = Console.ReadLine();
-                    if (double.TryParse(checkyearly, out yearly))
-                    {
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
-                    }
+                    
+                   
                 }
                 else
                 {
@@ -259,16 +229,12 @@ namespace ICT627_Assessment2_TaxCalculator
                     if (response == "yes")
                     {
                         Console.WriteLine("your tax code is: SB SL");
-                        //taxcodesummary = "Your Tax Code is: SB SL";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                        
                     }
                     else if (response == "no")
                     {
                         Console.WriteLine("your tax code is: SB");
-                        //taxcodesummary = "Your Tax Code is: SB";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                        
                     }
                     else
                     {
@@ -283,16 +249,12 @@ namespace ICT627_Assessment2_TaxCalculator
                     if (response == "yes")
                     {
                         Console.WriteLine("your tax code is: S SL");
-                        //taxcodesummary = "Your Tax Code is: S SL";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                        
                     }
                     else if (response == "no")
                     {
                         Console.WriteLine("your tax code is: S");
-                        //taxcodesummary = "Your Tax Code is: S";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                       
                     }
                     else
                     {
@@ -307,16 +269,12 @@ namespace ICT627_Assessment2_TaxCalculator
                     if (response == "yes")
                     {
                         Console.WriteLine("your tax code is: SH SL");
-                        //taxcodesummary = "Your Tax Code is: SH SL";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                       
                     }
                     else if (response == "no")
                     {
                         Console.WriteLine("your tax code is: SH");
-                        //taxcodesummary = "Your Tax Code is: SH";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                      
                     }
                     else
                     {
@@ -331,16 +289,12 @@ namespace ICT627_Assessment2_TaxCalculator
                     if (response == "yes")
                     {
                         Console.WriteLine("your tax code is: ST SL");
-                        //taxcodesummary = "Your Tax Code is: ST SL";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                        
                     }
                     else if (response == "no")
                     {
                         Console.WriteLine("your tax code is: ST");
-                        //taxcodesummary = "Your Tax Code is: ST";
-                        //TaxPay.TaxPayableCalc(yearly);
-                        //TaxCalcQ.TCQ(yearly);
+                        
                     }
                     else
                     {
